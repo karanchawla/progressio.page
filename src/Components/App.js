@@ -68,7 +68,7 @@ class App extends React.Component {
                                 <div className='ui active inverted dimmer'>
                                     <div
                                         className='ui text loader'
-                                        style={{ marginTop: "40%" }}>
+                                        style={{ marginTop: "25%" }}>
                                         Loading
                                     </div>
                                     <p />
