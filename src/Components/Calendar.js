@@ -31,8 +31,6 @@ const Calendar = props => {
     const datesCleaned = [];
     const progressCleaned = new Array(dates.length);
     const notesCleaned = new Array(dates.length);
-    const hoursTillDate = 0;
-
     dates.map((val, index) => {
         datesCleaned[index] = new Date(val);
     });
@@ -70,7 +68,6 @@ const Calendar = props => {
                 padding: "0.75em",
                 borderRadius: "4px"
             }}>
-            {/* {dates} */}
             <CalendarHeatmap
                 startDate={startDate}
                 endDate={endDate}

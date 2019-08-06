@@ -45,6 +45,7 @@ const UserCard = props => {
             <div className='ui row'>
                 <div className='six wide column'>
                     <img
+                        alt='user_image'
                         src={values[0]}
                         style={{
                             borderRadius: "50%",
@@ -55,7 +56,7 @@ const UserCard = props => {
             </div>
             <div style={{ display: "inline-block" }} className='centered'>
                 <a
-                    key={values[28]}
+                    key='twitter'
                     href={values[28]}
                     style={{
                         paddingRight: "0",
@@ -64,7 +65,7 @@ const UserCard = props => {
                     <i className='twitter icon' />
                 </a>
                 <a
-                    key={values[29]}
+                    key='instagram'
                     href={values[29]}
                     style={{
                         padding: "0",
@@ -73,7 +74,7 @@ const UserCard = props => {
                     <i className='instagram icon' />
                 </a>
                 <a
-                    key={values[30]}
+                    key='github'
                     href={values[30]}
                     style={{
                         paddingLeft: "0",
@@ -82,7 +83,7 @@ const UserCard = props => {
                     <i className='github icon' />
                 </a>
                 <a
-                    key={values[31]}
+                    key='dribble'
                     href={values[31]}
                     style={{
                         paddingLeft: "0",
@@ -91,19 +92,19 @@ const UserCard = props => {
                     <i className='dribbble icon' />
                 </a>
             </div>
-            <div className='row'>
+            <div key={values[1]} className='row'>
                 <div className='twelve wide column'>
                     <h2 className='ui header'>{values[1]}</h2>
                 </div>
             </div>
 
-            <div className='row'>
+            <div key={skills} className='row'>
                 <div className='sixteen wide column'>{skills}</div>
             </div>
             <div>
                 <h4 className='ui header'> Current Goals</h4>
             </div>
-            <div className='row'>
+            <div key={goals} className='row'>
                 <div className='sixteen wide column'>{goals}</div>
             </div>
             <ReactTooltip />
