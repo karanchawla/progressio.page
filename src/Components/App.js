@@ -3,6 +3,7 @@ import sheets from "../apis/sheets";
 import Calendar from "./Calendar";
 import UserCard from "./UserCard";
 import CalendarHeader from "./CalendarHeader";
+import mainLogo from "./logo.png";
 
 class App extends React.Component {
     constructor(props) {
@@ -27,12 +28,20 @@ class App extends React.Component {
         }
         return (
             <div className='ui container' style={{ marginTop: "40px" }}>
-                <div className='ui message'>
-                    <h1 className='ui huge header'>Progress Tracking</h1>
-                    <p className='lead'>
-                        Progression page is an application that helps people
-                        track their daily progress in learning to code. It pulls
-                        data directly from{" "}
+                <div className='ui text '>
+                    <h1 className='ui dividing header'>
+                        <img
+                            className='ui image'
+                            src={mainLogo}
+                            style={{ width: "60px" }}
+                        />
+                        Progress Tracking
+                    </h1>
+
+                    <p>
+                        Progressio is an application that helps people track
+                        their daily progress in learning to code. It pulls data
+                        directly from{" "}
                         <a href='https://docs.google.com/spreadsheets/d/11eLK3AhyHKIhRW_NFDpffkEwD79-6UnYn0fafMeoLno/edit#gid=0'>
                             this
                         </a>{" "}

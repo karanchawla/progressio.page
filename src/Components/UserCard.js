@@ -53,11 +53,50 @@ const UserCard = props => {
                     />
                 </div>
             </div>
+            <div style={{ display: "inline-block" }} className='centered'>
+                <a
+                    key={values[28]}
+                    href={values[28]}
+                    style={{
+                        paddingRight: "0",
+                        color: "#a0e6dd"
+                    }}>
+                    <i className='twitter icon' />
+                </a>
+                <a
+                    key={values[29]}
+                    href={values[29]}
+                    style={{
+                        padding: "0",
+                        color: "#a0e6dd"
+                    }}>
+                    <i className='instagram icon' />
+                </a>
+                <a
+                    key={values[30]}
+                    href={values[30]}
+                    style={{
+                        paddingLeft: "0",
+                        color: "#a0e6dd"
+                    }}>
+                    <i className='github icon' />
+                </a>
+                <a
+                    key={values[31]}
+                    href={values[31]}
+                    style={{
+                        paddingLeft: "0",
+                        color: "#a0e6dd"
+                    }}>
+                    <i className='dribbble icon' />
+                </a>
+            </div>
             <div className='row'>
                 <div className='twelve wide column'>
                     <h2 className='ui header'>{values[1]}</h2>
                 </div>
             </div>
+
             <div className='row'>
                 <div className='sixteen wide column'>{skills}</div>
             </div>
