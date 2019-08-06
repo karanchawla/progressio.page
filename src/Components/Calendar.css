@@ -1,0 +1,35 @@
+.react-calendar-heatmap-month-labels {
+    transform: translate(50px, 0) !important;
+}
+.react-calendar-heatmap {
+    padding-top: 2.25em;
+}
+
+.react-calendar-heatmap rect:hover {
+  stroke: none !important;
+  cursor: pointer;
+}
+
+.react-calendar-heatmap text {
+    font-size: 8px;
+    fill: #aaa;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+    font-size: 5px;
+}
+
+.react-calendar-heatmap rect:hover {
+    stroke: #555;
+    stroke-width: 1px;
+}
+
+.react-calendar-heatmap .color-progress-0 {
+    fill: #fafafa;
+}
+.react-calendar-heatmap .color-progress-1 {
+    fill: rgb(255, 173, 174);
+}
+.react-calendar-heatmap .color-progress-2 {
+    fill: rgb(160, 230, 221);
+}

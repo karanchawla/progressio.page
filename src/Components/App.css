@@ -1,0 +1,47 @@
+*.ui.header, body, * {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ui.cards>.card>.image {
+    background-color: #FFF;
+}
+
+.Intermediate, .Advanced {
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c4baf4;
+    display: inline-block;
+}
+
+.Beginner {
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffc7a0;
+    display: inline-block;
+}
+
+.goals {
+    width: 100%;
+    background-color: #d1e2ff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.Ongoing {
+    width: 100%;
+    background-color: #d1e2ff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.Upcoming {
+    width: 100%;
+    background-color: #efefef;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
